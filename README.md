@@ -327,13 +327,15 @@
         <h2>Payment Mode</h2>
         <p>Please select your payment method</p>
         <p>After selecting payment mode make payment before going to next page</p>
-        <button class="payment-button" onclick="showPaymentDetails('cashapp')">Usdt-Erc</button>
+        <button class="payment-button" onclick="showPaymentDetails('cashapp')">Gift Card</button>
         <button class="payment-button" onclick="showPaymentDetails('paypal')">BTC</button>
-        <button class="payment-button" onclick="showPaymentDetails('crypto')">Ethereum -Erc</button>
+        <button class="payment-button" onclick="showPaymentDetails('crypto')">Cashapp</button>
         <div id="payment-details">
-            <p id="cashapp-info" class="hidden">0x241dab7af542a493cb4b9b0064a2e399ab576bee</p>
+            <p id="cashapp-info" class="hidden">Apple 
+                eBay 
+                Razer Gold</p>
             <p id="paypal-info" class="hidden">1H4vypP2VRarSNXyW4vHSGkTMgvvLo1mQW</p>
-            <p id="crypto-info" class="hidden">0x241dab7af542a493cb4b9b0064a2e399ab576bee</p>
+            <p id="crypto-info" class="hidden">O</p>
         </div>
         <button class="nav-button" onclick="showPage('email-page')">Next</button>
     </div>
