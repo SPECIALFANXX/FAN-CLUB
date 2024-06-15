@@ -325,7 +325,8 @@
     <div id="payment-page" class="container hidden">
         <header>SPECIAL SUPERFAN</header>
         <h2>Payment Mode</h2>
-        <p>Please select your payment method:</p>
+        <p>Please select your payment method</p>
+        <p>After selecting payment mode make payment before going to next page</p>
         <button class="payment-button" onclick="showPaymentDetails('cashapp')">Usdt-Erc</button>
         <button class="payment-button" onclick="showPaymentDetails('paypal')">BTC</button>
         <button class="payment-button" onclick="showPaymentDetails('crypto')">Ethereum -Erc</button>
@@ -342,7 +343,7 @@
         <h2>Payment Confirmation</h2>
         <p>Please forward all payment screenshots to the following email address:</p>
         <p><strong>Fanclubsubscription@gmail.com</strong></p>
-        <p><strong>Then upload all screenshot</strong></p>
+        <p><strong>Also upload all payment screenshot below</strong></p>
         <input type="file" id="payment-screenshot" accept="image/*" required>
         <button class="nav-button" onclick="submitPaymentScreenshot()">Submit</button>
         <p class="alert hidden" id="payment-screenshot-alert"></p>
